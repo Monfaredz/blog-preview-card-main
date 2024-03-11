@@ -1,0 +1,111 @@
+@font-face {
+    font-family: myFont;
+    src: url(../assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --white-color: hsl(0, 0%, 100%);
+    --gray-color: hsl(0, 0%, 50%);
+
+}
+
+/* utility Classes */
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* utility Classes */
+
+
+
+
+body {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container {
+    padding: 3rem 500px;
+    width: 1200px;
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+
+}
+
+.box-container {
+    padding: 1rem;
+}
+
+.user {
+    width: 200px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+}
+
+.user h4 {
+    margin-left: 10px;
+    font-family: 'myFont2';
+    font-size: 1rem;
+}
+
+.category {
+    padding: 0.3rem 0.6rem;
+    background-color: var(--primary-color);
+    display: inline-block;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 20px 0;
+    font-family: 'myFont2';
+
+}
+
+.date {
+    font-size: 0.9rem;
+    font-family: 'myFont2';
+}
+
+h1 {
+    font-family: 'myFont2';
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'myFont2';
+    color: var(--gray-color);
+    margin: 10px 0;
+}
